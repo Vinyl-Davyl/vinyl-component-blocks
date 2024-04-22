@@ -3,6 +3,17 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/vinyl-blocks-umd.cjs",
+  "module": "dist/vinyl-blocks.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vinyl-blocks.js",
+      "require": "./dist/vinyl-blocks-umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -20,6 +31,7 @@
     "@storybook/react": "^8.0.8",
     "@storybook/react-vite": "^8.0.8",
     "@storybook/test": "^8.0.8",
+    "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.19",
     "eslint-plugin-storybook": "^0.8.0",
     "license-checker": "^25.0.1",
