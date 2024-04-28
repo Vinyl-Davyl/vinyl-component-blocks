@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Stack } from "@/components/Layout";
-import { Button, Input, Text, Avatar } from "@/components";
+import { Button, Input, Text, Avatar, Card } from "@/components";
 
 export const LoginForm = () => {
   return (
@@ -62,6 +62,17 @@ export const LoginForm = () => {
         >
           Login
         </Button>
+        <Card>
+          <Text
+            as="label"
+            htmlFor="username"
+            size={"sm"}
+            weight={"medium"}
+            className="mb-1.5"
+          >
+            Username
+          </Text>
+        </Card>
       </Stack>
     </Box>
   );

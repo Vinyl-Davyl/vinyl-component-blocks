@@ -1,4 +1,5 @@
 import React from "react";
+import { HTMLAttributes, CSSProperties } from "react";
 
 export type PropsOf<
   C extends keyof JSX.IntrinsicElements | React.JSXElementConstructor<unknown>,
@@ -48,3 +49,8 @@ export type PolymorphicComponentPropsWithRef<
   C extends React.ElementType,
   Props = {},
 > = PolymorphicComponentProps<C, Props> & { ref?: PolymorphicRef<C> };
+
+export interface ICardProps {
+  cardAttributes?: HTMLAttributes<HTMLDivElement>;
+  cardStyle?: CSSProperties;
+}
