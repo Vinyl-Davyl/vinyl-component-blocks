@@ -3,7 +3,7 @@ import { Box, Stack } from "@/components/Layout";
 import {
   Button,
   Input,
-  Text,
+  Typography,
   Avatar,
   Card,
   Checkbox,
@@ -15,7 +15,7 @@ export const LoginForm = () => {
   return (
     <Box className="px-8 py-12 border border-gray-300 rounded-xl">
       <Stack>
-        <Text
+        <Typography
           as="h2"
           weight={"bold"}
           align={"center"}
@@ -23,9 +23,9 @@ export const LoginForm = () => {
           className="mb-2"
         >
           Login
-        </Text>
+        </Typography>
         <Avatar imageSrc="https://avatars2.githubusercontent.com/u/132554" />
-        <Text
+        <Typography
           as="span"
           emphasis={"low"}
           size={"sm"}
@@ -33,9 +33,9 @@ export const LoginForm = () => {
           className="mb-8"
         >
           Please enter your credentials to login
-        </Text>
+        </Typography>
 
-        <Text
+        <Typography
           as="label"
           htmlFor="username"
           size={"sm"}
@@ -43,7 +43,7 @@ export const LoginForm = () => {
           className="mb-1.5"
         >
           Username
-        </Text>
+        </Typography>
         <Input
           type="text"
           id="username"
@@ -51,7 +51,7 @@ export const LoginForm = () => {
           className="mb-4"
         />
 
-        <Text
+        <Typography
           as="label"
           htmlFor="password"
           size={"sm"}
@@ -59,7 +59,7 @@ export const LoginForm = () => {
           className="mb-1.5"
         >
           Password
-        </Text>
+        </Typography>
         <Input id="password" type="password" placeholder={"Password"} />
 
         <Button
@@ -72,7 +72,7 @@ export const LoginForm = () => {
           Login
         </Button>
         <Card>
-          <Text
+          <Typography
             as="label"
             htmlFor="username"
             size={"sm"}
@@ -80,7 +80,7 @@ export const LoginForm = () => {
             className="mb-1.5"
           >
             Username
-          </Text>
+          </Typography>
         </Card>
         <Checkbox id="1" name="checkmark" />
         <Modal children={<p>Hello</p>} />

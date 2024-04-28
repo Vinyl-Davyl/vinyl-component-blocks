@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from "@storybook/react";
 import React from "react";
 import { Card } from "./index";
-import { Input, Text } from "@/components";
+import { Input, Typography } from "@/components";
 
 const meta: Meta = {
   title: "Components/Card",
@@ -25,7 +25,7 @@ export const Primary: Story = {
   args: {
     children: (
       <div>
-        <Text
+        <Typography
           as="label"
           htmlFor="username"
           size={"sm"}
@@ -33,7 +33,7 @@ export const Primary: Story = {
           className="mb-1.5"
         >
           Username
-        </Text>
+        </Typography>
         <Input
           type="text"
           id="username"

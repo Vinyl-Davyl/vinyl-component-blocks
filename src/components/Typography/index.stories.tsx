@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { Text } from ".";
+import { Typography } from ".";
 
-const meta: Meta<typeof Text> = {
-  title: "Components/Text",
-  component: Text,
+const meta: Meta<typeof Typography> = {
+  title: "Components/Typography",
+  component: Typography,
   parameters: {
     layout: "centered",
   },

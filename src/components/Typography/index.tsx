@@ -56,7 +56,7 @@ type TextComponent = <C extends React.ElementType = "span">(
 ) => React.ReactElement | null;
 
 // @ts-expect-error - unexpected typing errors
-export const Text: TextComponent = forwardRef(
+export const Typography: TextComponent = forwardRef(
   <C extends React.ElementType = "span">(
     {
       as,
