@@ -8,3 +8,4 @@ export * from "./Checkbox";
 export * from "./Modal";
 export * from "./OverviewCard";
 export * from "./Spinner";
+export * from "./Tabs";

@@ -10,6 +10,7 @@ import {
   Modal,
   OverviewCard,
   Spinner,
+  Tabs,
 } from "@/components";
 
 export const LoginForm = () => {
@@ -87,6 +88,7 @@ export const LoginForm = () => {
         <Modal children={<p>Hello</p>} />
         <OverviewCard percentage={75} percentageText="Transaction Details" />
         <Spinner />
+        <Tabs />
       </Stack>
     </Box>
   );
