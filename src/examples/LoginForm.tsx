@@ -84,7 +84,7 @@ export const LoginForm = () => {
         </Card>
         <Checkbox id="1" name="checkmark" />
         <Modal children={<p>Hello</p>} />
-        <OverviewCard percentage="75" percentageText="Transaction Details" />
+        <OverviewCard percentage={75} percentageText="Transaction Details" />
       </Stack>
     </Box>
   );
