@@ -1,5 +1,5 @@
 import React from "react";
-import { HTMLAttributes, CSSProperties } from "react";
+import { HTMLAttributes, CSSProperties, ChangeEvent } from "react";
 
 export type PropsOf<
   C extends keyof JSX.IntrinsicElements | React.JSXElementConstructor<unknown>,
@@ -53,4 +53,18 @@ export type PolymorphicComponentPropsWithRef<
 export interface ICardProps {
   cardAttributes?: HTMLAttributes<HTMLDivElement>;
   cardStyle?: CSSProperties;
+}
+
+export interface IInputProps {
+  inputAttributes?: HTMLAttributes<HTMLInputElement>;
+  inputStyle?: CSSProperties;
+}
+
+export interface ICheckboxProps extends IInputProps {
+  id: string;
+  name: string;
+  checked?: boolean;
+  value?: string;
+  color?: string;
+  onChange?: (value: ChangeEvent<HTMLInputElement>) => void;
 }

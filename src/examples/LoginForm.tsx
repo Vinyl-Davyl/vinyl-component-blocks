@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Stack } from "@/components/Layout";
 import { Button, Input, Text, Avatar, Card } from "@/components";
+import { Checkbox } from "@/components/Checkbox";
 
 export const LoginForm = () => {
   return (
@@ -73,6 +74,7 @@ export const LoginForm = () => {
             Username
           </Text>
         </Card>
+        <Checkbox id="1" name="checkmark" />
       </Stack>
     </Box>
   );
