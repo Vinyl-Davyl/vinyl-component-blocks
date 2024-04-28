@@ -1,7 +1,6 @@
 {
   "name": "vinyl-blocks",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "files": [
     "dist"
@@ -45,7 +44,12 @@
   "dependencies": {
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "styled-components": "^6.1.8",
     "tailwind-merge": "^2.3.0",
     "vite-tsconfig-paths": "^4.3.2"
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

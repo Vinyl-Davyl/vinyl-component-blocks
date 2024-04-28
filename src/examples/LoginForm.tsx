@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Stack } from "@/components/Layout";
-import { Button, Input, Text } from "@/components";
+import { Button, Input, Text, Avatar } from "@/components";
 
 export const LoginForm = () => {
   return (
@@ -15,6 +15,7 @@ export const LoginForm = () => {
         >
           Login
         </Text>
+        <Avatar imageSrc="https://avatars2.githubusercontent.com/u/132554" />
         <Text
           as="span"
           emphasis={"low"}
