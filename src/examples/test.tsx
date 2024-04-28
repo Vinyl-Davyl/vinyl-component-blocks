@@ -73,7 +73,7 @@ export const test = () => {
         >
           Login
         </Button>
-        <Card className="mt-10">
+        <Card>
           <Typography
             as="label"
             htmlFor="username"
@@ -84,15 +84,14 @@ export const test = () => {
             Username
           </Typography>
         </Card>
-        <Checkbox className="mt-10" id="1" name="checkmark" />
-        <Modal className="mt-10" children={<p>Hello</p>} />
-        <OverviewCard
-          className="mt-10"
-          percentage={75}
-          percentageText="Transaction Details"
+        <Checkbox id="1" name="checkmark" />
+        <Modal children={<p>Hello</p>} />
+        <OverviewCard percentage={75} percentageText="Transaction Details" />
+        <Spinner />
+        <Tabs
+          tabHeader={["First Tab", "Second Tab"]}
+          tabContent={[<p>First Tab</p>, <p>Second Tab</p>]}
         />
-        <Spinner className="mt-10" />
-        <Tabs className="mt-10" />
       </Stack>
     </Box>
   );
