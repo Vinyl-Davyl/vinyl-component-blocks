@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { LoginForm } from "./LoginForm";
+import { test } from "./test";
 
-const meta: Meta<typeof LoginForm> = {
-  title: "Examples/Form",
-  component: LoginForm,
+const meta: Meta<typeof test> = {
+  title: "Examples/test",
+  component: test,
   parameters: {
     layout: "centered",
   },

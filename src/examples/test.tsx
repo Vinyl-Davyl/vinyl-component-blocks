@@ -13,7 +13,7 @@ import {
   Tabs,
 } from "@/components";
 
-export const LoginForm = () => {
+export const test = () => {
   return (
     <Box className="px-8 py-12 border border-gray-300 rounded-xl">
       <Stack>
@@ -73,7 +73,7 @@ export const LoginForm = () => {
         >
           Login
         </Button>
-        <Card>
+        <Card className="mt-10">
           <Typography
             as="label"
             htmlFor="username"
@@ -84,11 +84,15 @@ export const LoginForm = () => {
             Username
           </Typography>
         </Card>
-        <Checkbox id="1" name="checkmark" />
-        <Modal children={<p>Hello</p>} />
-        <OverviewCard percentage={75} percentageText="Transaction Details" />
-        <Spinner />
-        <Tabs />
+        <Checkbox className="mt-10" id="1" name="checkmark" />
+        <Modal className="mt-10" children={<p>Hello</p>} />
+        <OverviewCard
+          className="mt-10"
+          percentage={75}
+          percentageText="Transaction Details"
+        />
+        <Spinner className="mt-10" />
+        <Tabs className="mt-10" />
       </Stack>
     </Box>
   );
