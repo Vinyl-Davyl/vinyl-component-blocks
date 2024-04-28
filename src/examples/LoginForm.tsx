@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Stack } from "@/components/Layout";
 import { Button, Input, Text, Avatar, Card } from "@/components";
 import { Checkbox } from "@/components/Checkbox";
+import { Modal } from "@/components/Modal";
 
 export const LoginForm = () => {
   return (
@@ -75,6 +76,7 @@ export const LoginForm = () => {
           </Text>
         </Card>
         <Checkbox id="1" name="checkmark" />
+        <Modal children={<p>Hello</p>} />
       </Stack>
     </Box>
   );
