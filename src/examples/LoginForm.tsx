@@ -53,7 +53,13 @@ export const LoginForm = () => {
         </Text>
         <Input id="password" type="password" placeholder={"Password"} />
 
-        <Button type="submit" variant={"solid"} className="mt-10">
+        <Button
+          type="submit"
+          variant={"solid"}
+          size={"lg"}
+          colorscheme={"primary"}
+          className="mt-10"
+        >
           Login
         </Button>
       </Stack>

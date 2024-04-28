@@ -25,6 +25,7 @@ const buttonStyles = cva(
       },
       colorscheme: {
         primary: "text-white",
+        secondary: "text-black",
       },
     },
     compoundVariants: [
