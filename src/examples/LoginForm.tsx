@@ -1,8 +1,15 @@
 import React from "react";
 import { Box, Stack } from "@/components/Layout";
-import { Button, Input, Text, Avatar, Card } from "@/components";
-import { Checkbox } from "@/components/Checkbox";
-import { Modal } from "@/components/Modal";
+import {
+  Button,
+  Input,
+  Text,
+  Avatar,
+  Card,
+  Checkbox,
+  Modal,
+  OverviewCard,
+} from "@/components";
 
 export const LoginForm = () => {
   return (
@@ -77,6 +84,7 @@ export const LoginForm = () => {
         </Card>
         <Checkbox id="1" name="checkmark" />
         <Modal children={<p>Hello</p>} />
+        <OverviewCard percentage="75" percentageText="Transaction Details" />
       </Stack>
     </Box>
   );

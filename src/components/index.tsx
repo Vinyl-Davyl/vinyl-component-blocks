@@ -5,3 +5,5 @@ export * from "./Text";
 export * from "./Avatar";
 export * from "./Card";
 export * from "./Checkbox";
+export * from "./Modal";
+export * from "./OverviewCard";

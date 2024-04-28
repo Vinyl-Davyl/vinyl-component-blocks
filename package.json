@@ -44,6 +44,7 @@
   "dependencies": {
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "react-circular-progressbar": "^2.1.0",
     "styled-components": "^6.1.8",
     "tailwind-merge": "^2.3.0",
     "vite-tsconfig-paths": "^4.3.2"
