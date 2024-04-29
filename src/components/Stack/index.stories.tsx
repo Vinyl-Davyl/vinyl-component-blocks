@@ -1,7 +1,7 @@
 import React from "react";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Stack } from ".";
-import { Box } from "..";
+import { Box } from "../Box";
 
 const meta: Meta<typeof Stack> = {
   title: "Layout/Stack",
