@@ -1,4 +1,4 @@
-import { Button } from "./components/Button/index";
+import { Button } from "./components/Button";
 import { Input } from "./components/Input/index";
 // import { Layout } from "./components/Layout/index";
 import { Typography } from "./components/Typography/index";
