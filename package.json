@@ -49,8 +49,13 @@
     "tailwind-merge": "^2.3.0",
     "vite-tsconfig-paths": "^4.3.2"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "UI",
+    "Components",
+    "Library",
+    "Design-System"
+  ],
+  "author": "Vinyl-Davyl",
+  "license": "MIT",
   "description": ""
 }

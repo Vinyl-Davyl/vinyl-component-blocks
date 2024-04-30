@@ -10,6 +10,8 @@ import { Modal } from "./components/Modal";
 import { OverviewCard } from "./components/OverviewCard";
 import { Spinner } from "./components/Spinner";
 import { Tabs } from "./components/Tabs";
+import "./styles/global.css";
+import "./index.css";
 
 export { Button };
 export { Input };
