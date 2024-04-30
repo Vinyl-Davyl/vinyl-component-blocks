@@ -13,6 +13,10 @@ import { Tabs } from "./components/Tabs";
 import "./styles/global.css";
 import "./index.css";
 
+import "tailwindcss/tailwind.css";
+import styled from "styled-components";
+import { cva } from "class-variance-authority";
+
 export { Button };
 export { Input };
 export { Stack };
