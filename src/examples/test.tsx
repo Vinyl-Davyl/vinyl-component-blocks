@@ -27,7 +27,7 @@ export const test = () => {
         >
           Login
         </Typography>
-        <Avatar imageSrc="https://avatars2.githubusercontent.com/u/132554" />
+        <Avatar imageSrc="https://miro.medium.com/v2/resize:fit:740/1*ooOH6jo8I0ns0J-BE0SAow.jpeg" />
         <Typography
           as="span"
           emphasis={"low"}
@@ -86,7 +86,16 @@ export const test = () => {
           </Typography>
         </Card>
         <Checkbox id="1" name="checkmark" />
-        <Modal children={<p>Hello</p>} />
+        <Modal
+          children={
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
+              voluptatibus quis voluptatem quos illo magnam sit, eaque eum,
+              optio, ipsum culpa ex earum nesciunt minus velit veniam accusamus.
+              Laboriosam, enim.
+            </p>
+          }
+        />
         <OverviewCard percentage={75} percentageText="Transaction Details" />
         <Spinner />
         <Tabs

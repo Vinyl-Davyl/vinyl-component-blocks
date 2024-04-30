@@ -15,7 +15,7 @@ export const Modal: React.FC<props> = (props) => {
       <div className={`modal ${showModal ? "show-modal" : ""}`}>
         <div className="modal-content">
           <span className="close-button" onClick={toggleModal}>
-            x
+            <strong>x</strong>
           </span>
           {props.children}
         </div>

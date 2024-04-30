@@ -11,7 +11,8 @@
     ".": {
       "import": "./dist/vinyl-component-blocks.js",
       "require": "./dist/vinyl-component-blocks-umd.cjs"
-    }
+    },
+    "./dist/style.css": "./dist/style.css"
   },
   "scripts": {
     "dev": "vite",
