@@ -14,7 +14,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, "./src/components/index.ts"),
       name: "vinyl-component-blocks",
-      fileName: "vinyl-blocks",
+      fileName: "vinyl-component-blocks",
     },
     rollupOptions: {
       external: ["react", "react-dom"],
