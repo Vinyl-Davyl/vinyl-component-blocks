@@ -12,8 +12,8 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: path.resolve(__dirname, "./src/components/index.tsx"),
-      name: "vinyl-blocks",
+      entry: path.resolve(__dirname, "./src/components/index.ts"),
+      name: "vinyl-component-blocks",
       fileName: "vinyl-blocks",
     },
     rollupOptions: {
