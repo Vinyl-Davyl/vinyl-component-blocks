@@ -14,7 +14,6 @@ import "./styles/global.css";
 import "./index.css";
 
 import "tailwindcss/tailwind.css";
-import styled from "styled-components";
 import "./lib/styles/tailwind.scss";
 
 export { Button };
