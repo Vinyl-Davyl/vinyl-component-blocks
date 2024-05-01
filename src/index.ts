@@ -15,7 +15,7 @@ import "./index.css";
 
 import "tailwindcss/tailwind.css";
 import styled from "styled-components";
-import { cva } from "class-variance-authority";
+import "./lib/styles/tailwind.scss";
 
 export { Button };
 export { Input };
