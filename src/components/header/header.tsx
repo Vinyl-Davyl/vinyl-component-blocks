@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import { Button } from './Button';
-import './header.css';
+import Button from "../button";
+import "./index.css";
 
 type User = {
   name: string;
@@ -14,11 +14,21 @@ interface HeaderProps {
   onCreateAccount?: () => void;
 }
 
-export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps) => (
+const Header: React.FC = ({
+  user,
+  onLogin,
+  onLogout,
+  onCreateAccount,
+}: HeaderProps) => (
   <header>
     <div className="storybook-header">
       <div>
-        <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+        <svg
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <g fill="none" fillRule="evenodd">
             <path
               d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
@@ -34,23 +44,31 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps
             />
           </g>
         </svg>
-        <h1>Acme</h1>
+        <h1>VC Blocks</h1>
       </div>
-      <div>
+      <div className="right-pane">
         {user ? (
           <>
             <span className="welcome">
               Welcome, <b>{user.name}</b>!
             </span>
-            <Button size="small" onClick={onLogout} label="Log out" />
+            <Button size="small" onClick={onLogout}>
+              Log out
+            </Button>
           </>
         ) : (
           <>
-            <Button size="small" onClick={onLogin} label="Log in" />
-            <Button primary size="small" onClick={onCreateAccount} label="Sign up" />
+            <Button size="small" onClick={onLogin}>
+              Log in
+            </Button>
+            <Button type="secondary" size="small" onClick={onCreateAccount}>
+              Log out
+            </Button>
           </>
         )}
       </div>
     </div>
   </header>
 );
+
+export default Header;

@@ -1,56 +1,51 @@
 {
   "name": "vinyl-component-blocks",
   "version": "1.1.2",
+  "main": "lib/index.js",
   "type": "module",
-  "files": [
-    "dist"
-  ],
-  "main": "dist/vinyl-component-blocks-umd.cjs",
-  "module": "dist/vinyl-component-blocks.js",
-  "exports": {
-    ".": {
-      "import": "./dist/vinyl-component-blocks.js",
-      "require": "./dist/vinyl-component-blocks-umd.cjs"
-    },
-    "./dist/style.css": "./dist/style.css"
-  },
   "scripts": {
     "dev": "vite",
+    "compile-icons": "npx @svgr/cli -d src/icons src/icons --typescript",
+    "copy-files": "copyfiles --up 1 src/config/fonts/* lib/",
     "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "prebuild": "npm run compile-icons && npm run copy-files",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "email-validator": "^2.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.9"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.3.3",
-    "@storybook/addon-essentials": "^8.0.8",
-    "@storybook/addon-interactions": "^8.0.8",
-    "@storybook/addon-links": "^8.0.8",
-    "@storybook/addon-onboarding": "^8.0.8",
-    "@storybook/blocks": "^8.0.8",
-    "@storybook/react": "^8.0.8",
-    "@storybook/react-vite": "^8.0.8",
-    "@storybook/test": "^8.0.8",
-    "@vitejs/plugin-react": "^4.2.1",
-    "autoprefixer": "^10.4.19",
+    "@storybook/addon-essentials": "^8.0.9",
+    "@storybook/addon-interactions": "^8.0.9",
+    "@storybook/addon-links": "^8.0.9",
+    "@storybook/addon-onboarding": "^8.0.9",
+    "@storybook/blocks": "^8.0.9",
+    "@storybook/react": "^8.0.9",
+    "@storybook/react-vite": "^8.0.9",
+    "@storybook/test": "^8.0.9",
+    "@svgr/cli": "^8.1.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@types/styled-components": "^5.1.34",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "copyfiles": "^2.4.1",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
     "eslint-plugin-storybook": "^0.8.0",
-    "rollup": "^3.27.2",
-    "rollup-plugin-postcss": "^4.0.2",
-    "license-checker": "^25.0.1",
-    "postcss": "^8.4.38",
-    "storybook": "^8.0.8",
-    "typescript": "^5.2.2",
-    "vite": "^5.2.0",
-    "vite-plugin-dts": "^3.8.3"
-  },
-  "dependencies": {
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.0",
-    "react-circular-progressbar": "^2.1.0",
-    "styled-components": "^6.1.8",
-    "tailwind-merge": "^2.3.0",
-    "tailwindcss": "^3.4.3",
-    "vite-tsconfig-paths": "^4.3.2"
+    "storybook": "^8.0.9",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
   },
   "keywords": [
     "UI",
