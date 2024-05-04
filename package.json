@@ -49,11 +49,24 @@
   },
   "keywords": [
     "UI",
-    "Components",
-    "Library",
-    "Design-System"
+    "components",
+    "design-system",
+    "auth-ui",
+    "library",
+    "accessibility",
+    "open-source",
+    "reusable-component",
+    "design-engineering"
   ],
-  "author": "Vinyl-Davyl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vinyl-Davyl/vinyl-component-blocks"
+  },
+  "author": {
+    "email": "okononfuadavid@gmail.com",
+    "name": "Vinyl-Davyl (Okononfua O David)",
+    "url": "https://vinyldavyl.xyz"
+  },
   "license": "MIT",
-  "description": ""
+  "description": "Modular, Reusable, and Styled UI Component Library. Stop repeating work, install, call, use, modify."
 }
