@@ -72,6 +72,62 @@ import {
 } from "vinyl-component-blocks";
 ```
 
+### Demo Example Combining Components
+
+```jsx
+import React from "react";
+import { Button, Card, Avatar } from "vinyl-component-blocks";
+
+const DemoComponent = () => (
+  <div>
+    <Card backgroundColor="#f0f0f0" padding="20px">
+      <Avatar imageSrc="https://example.com/avatar.jpg" />
+      <h2>John Doe</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <Button type="primary" size="medium">
+        Read More
+      </Button>
+    </Card>
+  </div>
+);
+
+export default DemoComponent;
+```
+
+<br />
+
+- Providing a hands-on experience with the Vinyl Component Blocks library, showcasing the versatility and functionality of each component. Key components here include the `Header` and `Login` UI components.
+
+<br />
+
+```jsx
+import React from "react";
+import { Button, Card, Avatar, Header, Login } from "vinyl-component-blocks";
+
+const DemoComponent = () => (
+  <div>
+    <Header
+      user={{ name: "John Doe" }}
+      onLogout={() => console.log("Logged out")}
+    />
+    <Card backgroundColor="#f0f0f0" padding="20px">
+      <Avatar imageSrc="https://example.com/avatar.jpg" />
+      <h2>John Doe</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <Button type="primary" size="medium">
+        Read More
+      </Button>
+    </Card>
+    <Login
+      onLogin={() => console.log("Logged in")}
+      onCreateAccount={() => console.log("Creating account")}
+    />
+  </div>
+);
+
+export default DemoComponent;
+```
+
 ## Components
 
 ### Button
@@ -251,56 +307,6 @@ const CustomTextInput = () => (
 );
 
 export default CustomTextInput;
-```
-
-### Demo Example Combining Components
-
-```jsx
-import React from "react";
-import { Button, Card, Avatar } from "vinyl-component-blocks";
-
-const DemoComponent = () => (
-  <div>
-    <Card backgroundColor="#f0f0f0" padding="20px">
-      <Avatar imageSrc="https://example.com/avatar.jpg" />
-      <h2>John Doe</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <Button type="primary" size="medium">
-        Read More
-      </Button>
-    </Card>
-  </div>
-);
-
-export default DemoComponent;
-```
-
-```jsx
-import React from "react";
-import { Button, Card, Avatar, Header, Login } from "vinyl-component-blocks";
-
-const DemoComponent = () => (
-  <div>
-    <Header
-      user={{ name: "John Doe" }}
-      onLogout={() => console.log("Logged out")}
-    />
-    <Card backgroundColor="#f0f0f0" padding="20px">
-      <Avatar imageSrc="https://example.com/avatar.jpg" />
-      <h2>John Doe</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <Button type="primary" size="medium">
-        Read More
-      </Button>
-    </Card>
-    <Login
-      onLogin={() => console.log("Logged in")}
-      onCreateAccount={() => console.log("Creating account")}
-    />
-  </div>
-);
-
-export default DemoComponent;
 ```
 
 ### Demo Example, Simple Login UI
