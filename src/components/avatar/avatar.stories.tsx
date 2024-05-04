@@ -4,6 +4,9 @@ import Avatar from ".";
 const meta: Meta = {
   title: "Components/Avatar",
   component: Avatar,
+  parameters: {
+    layout: "centered",
+  },
   tags: ["autodocs"],
 };
 

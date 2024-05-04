@@ -5,6 +5,9 @@ import React from "react";
 const meta: Meta = {
   title: "Components/Modal",
   component: Modal,
+  parameters: {
+    layout: "centered",
+  },
   tags: ["autodocs"],
 };
 
@@ -18,7 +21,7 @@ export const Default: Story = {
     children: (
       <Modal
         children={
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p> Ensure a cohesive user experience across your application.</p>
         }
       />
     ),

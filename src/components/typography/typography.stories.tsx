@@ -6,6 +6,9 @@ import Typography, { TypographyProps } from ".";
 const meta: Meta = {
   title: "Components/Typography",
   component: Typography,
+  parameters: {
+    layout: "centered",
+  },
   tags: ["autodocs"],
 };
 
@@ -16,24 +19,27 @@ export const Sizes = () => {
   return (
     <>
       <Typography variant="h1" align="center" className="Typography">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nisi
-        libero iure enim ipsa nihil harum qui, ad saepe molestias amet, nesciunt
-        ipsum reiciendis, quibusdam labore ratione alias perferendis!
-        Perspiciatis!
+        Ensure a cohesive user experience across your application with a
+        centralized library of reusable UI components. Say goodbye to design
+        inconsistencies. Stop reinventing the wheel! Our well-documented
+        component library empowers you to concentrate on building unique
+        features and functionalities.
       </Typography>
 
       <Typography variant="h2" align="left" className="Typography">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nisi
-        libero iure enim ipsa nihil harum qui, ad saepe molestias amet, nesciunt
-        ipsum reiciendis, quibusdam labore ratione alias perferendis!
-        Perspiciatis!
+        Ensure a cohesive user experience across your application with a
+        centralized library of reusable UI components. Say goodbye to design
+        inconsistencies. Stop reinventing the wheel! Our well-documented
+        component library empowers you to concentrate on building unique
+        features and functionalities.
       </Typography>
 
       <Typography variant="h3" align="left" className="Typography">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nisi
-        libero iure enim ipsa nihil harum qui, ad saepe molestias amet, nesciunt
-        ipsum reiciendis, quibusdam labore ratione alias perferendis!
-        Perspiciatis!
+        Ensure a cohesive user experience across your application with a
+        centralized library of reusable UI components. Say goodbye to design
+        inconsistencies. Stop reinventing the wheel! Our well-documented
+        component library empowers you to concentrate on building unique
+        features and functionalities.
       </Typography>
     </>
   );

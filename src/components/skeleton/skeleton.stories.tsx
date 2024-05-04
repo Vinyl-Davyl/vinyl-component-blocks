@@ -6,6 +6,9 @@ import Skeleton, { SkeletonProps } from ".";
 const meta: Meta = {
   title: "Components/Skeleton",
   component: Skeleton,
+  parameters: {
+    layout: "centered",
+  },
   tags: ["autodocs"],
 };
 

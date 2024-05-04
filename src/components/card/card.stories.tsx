@@ -5,6 +5,9 @@ import Card from "./index";
 const meta: Meta = {
   title: "Components/Card",
   component: Card,
+  parameters: {
+    layout: "centered",
+  },
   tags: ["autodocs"],
 };
 
