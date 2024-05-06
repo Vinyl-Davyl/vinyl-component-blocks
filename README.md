@@ -312,6 +312,10 @@ export default DemoComponent;
 | initialValues | object   | Initial values for the form fields       |
 | loading       | boolean  | Specify whether to display loading state |
 | registerLink  | string   | Link for user registration               |
+<img width="699" alt="Screenshot 2024-05-04 051925" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/e652d3f8-d2e3-464d-8712-9ead0549ba95">
+<img width="708" alt="Screenshot 2024-05-04 051949" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/0b82287e-fb57-4c2b-be86-6994d0a5794e">
+
+
 
 ## External Resources and Dependencies 🌐
 
