@@ -146,10 +146,9 @@ export default DemoComponent;
 | as        | ElementType | HTML element type for the button                            |
 | to        | string      | Destination path for the link if using the 'as' prop        |
 | ...rest   | any         | Additional props for customization                          |
+
 <img width="703" alt="Screenshot 2024-05-04 051425" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/be915362-55ee-4f06-a75c-3bf86565c887">
 <img width="709" alt="Screenshot 2024-05-04 051538" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/ebbe903a-0e8c-4220-8cb9-7b5ca086567b">
-
-
 
 ### FormControl
 
@@ -166,10 +165,9 @@ export default DemoComponent;
 | onFocus    | function  | Focus event handler                |
 | forceLabel | boolean   | Force label to always show         |
 | ...rest    | any       | Additional props for customization |
+
 <img width="713" alt="Screenshot 2024-05-04 051640" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/b09bd284-de4e-400f-9360-ac62b406cc34">
 <img width="711" alt="Screenshot 2024-05-04 051657" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/f2ddf69b-badd-4fa5-aea0-bd728c6552e4">
-
-
 
 ### Link
 
@@ -181,8 +179,8 @@ export default DemoComponent;
 | as        | ElementType | HTML element type (default is `a`) |
 | href      | string      | Link URL                           |
 | ...rest   | any         | Additional props for customization |
-<img width="709" alt="Screenshot 2024-05-04 051835" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/31425da4-2bf0-4dfd-bd08-ca0b75609880">
 
+<img width="709" alt="Screenshot 2024-05-04 051835" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/31425da4-2bf0-4dfd-bd08-ca0b75609880">
 
 ### Search
 
@@ -194,8 +192,8 @@ export default DemoComponent;
 | value       | string        | Current value of the search input                      |
 | onChange    | function      | Change event handler for the search input              |
 | placeholder | string        | Placeholder text for the search input                  |
-<img width="726" alt="Screenshot 2024-05-04 052414" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/3091d9b3-faa6-43e6-82a1-328156445fbc">
 
+<img width="726" alt="Screenshot 2024-05-04 052414" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/3091d9b3-faa6-43e6-82a1-328156445fbc">
 
 ### Select
 
@@ -210,12 +208,11 @@ export default DemoComponent;
 | listOptions | SelectOption[] | Array of options for the select input                  |
 | onChange    | function       | Change event handler for the select input              |
 | placeholder | string         | Placeholder text for the select input                  |
+
 <img width="713" alt="Screenshot 2024-05-04 052459" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/de72ccae-e20a-48cf-8c95-c81c7672a179">
 <img width="722" alt="Screenshot 2024-05-04 051719" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/b835337c-6ca1-4c79-a9ca-f697c0de89a5">
 <img width="718" alt="Screenshot 2024-05-04 052626" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/5bcfbb59-267d-46ed-89a5-9873e66ff2b1">
 <img width="528" alt="Screenshot 2024-05-04 052525" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/00b5275d-c3b6-4e2b-bf1a-27cda16c3244">
-
-
 
 ### Skeleton
 
@@ -225,8 +222,8 @@ export default DemoComponent;
 | height       | number | Height of the skeleton element        |
 | className    | string | Additional CSS classes for styling    |
 | borderRadius | string | Border radius of the skeleton element |
-<img width="714" alt="Screenshot 2024-05-04 052700" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/5064b769-8ce0-4a1f-b3be-edee01aee7a6">
 
+<img width="714" alt="Screenshot 2024-05-04 052700" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/5064b769-8ce0-4a1f-b3be-edee01aee7a6">
 
 ### Spinner
 
@@ -235,8 +232,8 @@ export default DemoComponent;
 | size      | number  | Size of the spinner                |
 | className | string  | Additional CSS classes for styling |
 | light     | boolean | Use light spinner variant          |
-<img width="714" alt="Screenshot 2024-05-04 052722" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/ddadcf1e-3938-48b0-b1dd-df2047827130">
 
+<img width="714" alt="Screenshot 2024-05-04 052722" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/ddadcf1e-3938-48b0-b1dd-df2047827130">
 
 ### TextInput
 
@@ -253,10 +250,10 @@ export default DemoComponent;
 | readonly    | boolean       | Make the input read-only                        |
 | clearable   | boolean       | Allow clearing the input                        |
 | ...rest     | any           | Additional props for customization              |
+
 <img width="709" alt="Screenshot 2024-05-04 052741" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/b5ec0064-62a6-4289-9be9-efbe3e246123">
 <img width="709" alt="Screenshot 2024-05-04 052835" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/101bc450-70c2-45d1-a820-7728a8b18c4d">
 <img width="712" alt="Screenshot 2024-05-04 052811" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/68a934ae-6ae6-4f2f-bc74-0a42630b5a01">
-
 
 ### Typography
 
@@ -266,14 +263,15 @@ export default DemoComponent;
 | align     | string    | Text alignment (`center`, `right`, `left`) |
 | className | string    | Additional CSS classes for styling         |
 | children  | ReactNode | Text content                               |
-<img width="709" alt="Screenshot 2024-05-04 052916" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/be9e6ff4-d72c-4a76-8442-a829efbe269c">
 
+<img width="709" alt="Screenshot 2024-05-04 052916" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/be9e6ff4-d72c-4a76-8442-a829efbe269c">
 
 ### Avatar
 
 | Prop     | Type   | Description                     |
 | -------- | ------ | ------------------------------- |
 | imageSrc | string | Source URL for the avatar image |
+
 <img width="710" alt="Screenshot 2024-05-04 051356" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/14f46b64-06af-4660-b73f-39d0fa412fa2">
 
 ### Card
@@ -283,6 +281,7 @@ export default DemoComponent;
 | backgroundColor | string    | Background color of the card               |
 | children        | ReactNode | Content to be displayed within the card    |
 | padding         | string    | Padding around the content inside the card |
+
 <img width="708" alt="Screenshot 2024-05-04 051605" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/0627a6fa-ab8b-4a44-bc97-106bf3c780dd">
 
 ### Modal
@@ -290,8 +289,8 @@ export default DemoComponent;
 | Prop     | Type      | Description                              |
 | -------- | --------- | ---------------------------------------- |
 | children | ReactNode | Content to be displayed within the modal |
-<img width="721" alt="Screenshot 2024-05-04 052356" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/c01646a2-ef8d-47b0-b939-98a2a887184a">
 
+<img width="721" alt="Screenshot 2024-05-04 052356" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/c01646a2-ef8d-47b0-b939-98a2a887184a">
 
 ### Header
 
@@ -301,9 +300,18 @@ export default DemoComponent;
 | onLogin         | function | Event handler for login action          |
 | onLogout        | function | Event handler for logout action         |
 | onCreateAccount | function | Event handler for create account action |
+
 <img width="708" alt="Screenshot 2024-05-04 051800" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/558a31c9-9c15-453e-b565-b02c574eef88">
 <img width="724" alt="Screenshot 2024-05-04 051817" src="https://github.com/Vinyl-Davyl/vinyl-component-blocks/assets/68241801/0302e7b3-78d0-4b8a-b906-36526d864432">
 
+### Login
+
+| Prop          | Type     | Description                              |
+| ------------- | -------- | ---------------------------------------- |
+| onSubmit      | function | Event handler for form submission        |
+| initialValues | object   | Initial values for the form fields       |
+| loading       | boolean  | Specify whether to display loading state |
+| registerLink  | string   | Link for user registration               |
 
 ## External Resources and Dependencies 🌐
 
